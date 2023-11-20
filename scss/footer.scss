@@ -1,0 +1,10 @@
+@mixin nonnn {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    text-align: center;
+    @include nonnn;
+    padding: 10px;
+    margin: 10px;
+}
